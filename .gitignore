@@ -1,0 +1,35 @@
+# Dependencies
+node_modules/
+.pio/
+.venv/
+venv/
+
+# Build outputs
+frontend/dist/
+firmware/.pio/
+*.o
+*.elf
+*.bin
+*.hex
+*.map
+
+# IDE / OS
+.idea/
+.vscode/
+!.vscode/extensions.json
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Logs / env
+*.log
+.env
+.env.*
+!.env.example
+
+# PlatformIO
+.pioenvs/
+.piolibdeps/
+.clang_complete
+.gcc-flags.json
